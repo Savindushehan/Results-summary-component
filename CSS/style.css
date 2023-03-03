@@ -273,6 +273,9 @@ h4{
         background-image: linear-gradient(hsl(240, 21%, 26%),hsl(253, 17%, 27%));
        
    }
+   .background2 h2{
+    margin-top: 0.8rem;
+   }
 }
     
 
