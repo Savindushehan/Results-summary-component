@@ -11,14 +11,13 @@ main{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
 }
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 38rem;
-   
+    filter: drop-shadow(5px 2px 2px hsl(209, 51%, 85%));
 }
 .background1{
     display: flex;
@@ -91,92 +90,143 @@ p{
 
 }
 .background2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     width: 19rem;
+    background-color: white;
     border-radius: 1rem;
-    
-}
-.main{
-    display: flex;
 }
 .background2 h1{
     font-family: 'Hanken Grotesk', sans-serif;
-    text-align: left;
-    font-size: 1.4rem;
-    margin-left: 2rem;
-    margin-bottom: 2.5rem;
-    margin-top: 2rem;
-   
-}
-.text{
-    display: flex;
-    margin-bottom: 2.5rem;
-    margin-left:2.5rem ;
-    margin-right: 0;
-}
-.text l1{
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-left: 1rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.2rem;
+    
+} 
+.row1{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 19%, 91%);
+    height: 3rem;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+}
+.side1{
+    display: flex;
+}
+.side1 img{
+    width: 1rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+.row1 h2{
     color: hsl(0, 100%, 67%);
-}
-.text l2{
     font-size: 1rem;
-    margin-left: 1rem;
-    color: hsl(39, 100%, 56%);
-}
-.text l3{
-    font-size: 1rem;
-    margin-left: 1rem;
-    color: hsl(166, 100%, 37%);
-}
-.text l4{
-    font-size: 1rem;
-    margin-left: 1rem;
-    color: hsl(234, 85%, 45%);
-}
-.list2{
-    display: flex;
-    flex-direction: column;
-}
-.marks{
-    display: flex;
-    margin-bottom: 2.5rem;
-    margin-left:4.5rem;
-  
-}
-.marks span{
-   font-size: 1rem;
-   margin-right: 0.5rem;
-   font-family: 'Hanken Grotesk', sans-serif;
-   margin: 0 0.4rem 0 0;
-   padding: 0;
-}
-.marks pre{
-    font-size: 1rem;
-    color:  hsl(224, 30%, 27%);
     font-family: 'Hanken Grotesk', sans-serif;
-    margin: 0;
-    padding: 0;
 }
-.background2 h2{
-    font-family: 'Hanken Grotesk', sans-serif;
-    color:hsl(0, 0%, 100%);
+.side2{
+    display: flex;
+    margin-left: 2.5rem;
+}
+.side2 h3{
     font-size: 1rem;
-    background-color:   rgb(42, 42, 65);
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
+    margin-top: 1.1rem;
+}
+.side2 h4{
+    font-size: 1rem;
+    margin-top: 1.1rem;
+}
+.row2{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color:  hsl(38, 29%, 89%);
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 h2{
+    color:  hsl(39, 100%, 56%);
+    font-size: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.row3{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: hsl(165, 29%, 87%);
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row3 h2{
+    color:  hsl(166, 100%, 37%);
+    font-size: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.row4{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color:  hsl(236, 38%, 91%);
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row4 h2{
+    color:   hsl(234, 85%, 45%);
+    font-size: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.background2 pre{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1rem;
+    width: 15rem;
+    height: 2rem;
     border-radius: 2rem;
-    padding: 0.5rem;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    color: rgb(116, 113, 113);
+    font-size: 1rem;
+}
+.row1 h3{
+    margin-left: 1.5rem;
+}
+.row2 h3{
+    margin-left: 2rem;
+}
+.row3 h3{
+    margin-left: 3.2rem;
+}
+.row4 h3{
+    margin-left: 3rem;
 }
 @media screen and (max-width:89.9375rem){
     .container{
         display: flex;
         flex-direction: column;
         height: 100%;
+        filter: drop-shadow(0px 0px 0px hsl(209, 51%, 85%));
     }
     .background1{
         height: 42%;
@@ -185,7 +235,7 @@ p{
     .background1 h1{
         margin-top: 0rem;
        font-size: 1rem;
- }
+    }
     .circle{
         width: 7rem;
         height: 7rem;
@@ -216,25 +266,13 @@ p{
     
     }
     .background2{
-        width: 19rem;
-        height: 58%;
-        border-radius:0;
+        border-radius: 0;
     }
-    .background2 h1{
-        font-size: 1.4rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
+   .background2 pre{
+        background-color: black;
+        background-image: linear-gradient(hsl(240, 21%, 26%),hsl(253, 17%, 27%));
        
-    }
-    .text{
-        margin-bottom: 2rem;
-        margin-left:2.5rem ;
-        margin-right: 0;
-    }
-    .marks{
-        margin-bottom: 2rem;
-    }
+   }
 }
     
 
